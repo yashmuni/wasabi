@@ -3,5 +3,6 @@ CREATE TABLE user_info (
   user_email text,
   firstname text,
   lastname text,
+  password text,
   PRIMARY KEY (user_id)
 );
