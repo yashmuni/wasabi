@@ -6,3 +6,5 @@ CREATE TABLE user_info (
   password text,
   PRIMARY KEY (user_id)
 );
+
+create index on user_info(user_email);
